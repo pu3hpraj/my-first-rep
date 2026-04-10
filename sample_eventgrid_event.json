@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1234",
+    "eventType": "Microsoft.KeyVault.SecretNewVersionCreated",
+    "subject": "/subscriptions/1111/resourceGroups/rg-demo/providers/Microsoft.KeyVault/vaults/kv-dev-src/secrets/my-api-token",
+    "eventTime": "2026-04-10T00:00:00Z",
+    "data": {
+      "Id": "https://kv-dev-src.vault.azure.net/secrets/my-api-token/abcd1234",
+      "VaultName": "kv-dev-src",
+      "ObjectType": "Secret",
+      "ObjectName": "my-api-token",
+      "Version": "abcd1234"
+    },
+    "dataVersion": "1",
+    "metadataVersion": "1",
+    "topic": "/subscriptions/1111/resourceGroups/rg-demo/providers/Microsoft.KeyVault/vaults/kv-dev-src"
+  }
+]
